@@ -2,7 +2,7 @@ import tweepy
 from datetime import timedelta, datetime
 from secrets import CONSUMER_KEY, CONSUMER_KEY_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
 
-RANGE = timedelta(days=30)
+RANGE = timedelta(days=90)
 
 if __name__ == "__main__":
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_KEY_SECRET)
